@@ -214,3 +214,22 @@ img{
     content: '\f144';
     padding-left: 15px;
 }
+.sixth-higlight-wrapper{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.sixth-higlight-wrapper .left-side-wrapper{
+    background-image: url('../images/home/macbook-pro.jpg');
+    background-size: initial;
+    background-position: bottom;
+    background-color: #fafafa;
+}
+.sixth-higlight-wrapper .right-side-wrapper{
+    background-image: url('../images/home/new-ipad.jpg');
+}
+.product-title-small{
+    font-size: 45px;
+    font-weight: 700;
+}
