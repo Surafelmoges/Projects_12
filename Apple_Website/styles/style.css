@@ -61,3 +61,15 @@ img{
 }
 
 /* Header style End */
+
+/* Main style Start */
+
+
+.main-highlight-wrapper{
+    background: #fafafa;
+    text-align: center;
+    padding: 25px 0;
+}
+.model{
+    font-size: .85em;
+}
