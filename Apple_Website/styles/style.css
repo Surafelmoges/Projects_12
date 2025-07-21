@@ -127,3 +127,12 @@ img{
     font-size: 0.85em;
     color: #86868b;
 }
+.third-section-wrapper{
+    background-image: url('../images/home/iphone11-bg.jpg');
+    height: 580px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 65px 20px;
+}
