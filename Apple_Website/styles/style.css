@@ -104,3 +104,26 @@ img{
     font-family: 'fontawesome';
     padding-left: 10px;
 }
+.second-section-wrapper{
+    background-image:  url('../images/home/iphone11-pro-bg.jpg');
+    height: 580px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 65px 20px;
+    color: #fff;
+}
+.title{
+    font-weight: 600;
+    font-size: 56px;
+
+}
+.description{
+    font-size: 26px;
+    padding: 10px 0;
+}
+.price{
+    font-size: 0.85em;
+    color: #86868b;
+}
