@@ -73,3 +73,34 @@ img{
 .model{
     font-size: .85em;
 }
+.main-highlight-wrapper ul{
+    list-style: none;
+}
+.product-title{
+    font-weight: 700;
+    font-size: 56px;
+}
+.product-description{
+    font-size: 2em;
+}
+.link-wrapper{
+    padding: 20px 0;
+}
+.link-wrapper ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.link-wrapper ul li a{
+    text-decoration: none;
+    color: #06c;
+
+}
+.link-wrapper ul li a:hover{
+    color: #000;
+}
+.link-wrapper ul li a::after{
+    font-weight: 900;
+    content: '\f054';
+    font-family: 'fontawesome';
+    padding-left: 10px;
+}
