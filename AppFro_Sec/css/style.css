@@ -147,3 +147,34 @@ body{
     display: inline-block;
     vertical-align: middle;
 }
+
+.main-highlight-wrapper{
+    text-align: center;
+    padding-top: 25px;
+}
+.main-highlight-wrapper ul{
+    list-style: none;
+}
+
+.model{
+    font-size: .85em;
+    padding: 8px;
+}
+.product-title{
+    font-weight: 600;
+    font-size: 56px;
+}
+.product-description{
+   font-size: 2em;
+}
+.link-wrapper{
+padding: 25px 0;
+}
+.link-wrapper ul li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.link-wrapper ul li a{
+    color: rgb(32, 53, 150);
+    text-decoration: none;
+}
