@@ -260,3 +260,55 @@ background-image: url('../images/home/apple-card.jpg');
     margin: 0 auto;
     padding: 10px;
 }
+.fifth-highlight-wrapper{
+     display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.fifth-highlight-wrapper .left-section-wrapper{
+    background-image: url('../images/home/apple-tv-background.jpg');
+}
+.fifth-highlight-wrapper .second-logo-wrapper{
+    padding-top: 180px;
+}
+.fifth-highlight-wrapper .trailer-wrapper{
+    padding-top: 210px;
+}
+.fifth-highlight-wrapper .trailer-wrapper a{
+    color: #06c;
+    text-decoration: none;
+}
+.fifth-highlight-wrapper .trailer-wrapper a::after{
+    content: '\f04b'; /* f04b is the Unicode for the play button */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900; /* Needed for solid icons */
+    margin-left: 8px; /* optional spacing */
+}
+
+
+.fifth-highlight-wrapper .right-section-wrapper{
+    background-image: url('../images/home/air-pods.jpg');
+    background-size: initial;
+    background-position: bottom;
+    background-color: #000;
+    color: white;
+}
+.sixth-highlight-wrapper{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+   padding: 40px 0; /* Optional spacing */
+
+}
+.sixth-highlight-wrapper .left-section-wrapper{
+    background-image: url('../images/home/macbook-pro.jpg');
+    background-size: initial;
+    background-color: #fafafa;
+    background-position: bottom;
+
+}
+.sixth-highlight-wrapper .right-section-wrapper{
+    background-image: url('../images/home/new-ipad.jpg');
+}
