@@ -76,3 +76,74 @@ body{
 .uppertext-wrapper a:hover{
     text-decoration: underline;
 }
+
+.footer-links-wrapper{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+   padding-top: 20px;
+}
+.footer-links-wrapper ul{
+    list-style: none;
+    padding-bottom: 20px;
+
+}
+.footer-links-wrapper ul li a{
+    color: #515154;
+    text-decoration: none;
+}
+.footer-links-wrapper ul li a:hover{
+    text-decoration: underline;
+}
+.footer-links-wrapper ul li{
+    padding: 5px 0;
+    font-size: .95em;
+}
+.footer-links-wrapper h3{
+    font-weight: 600;
+    font-size: 12px;
+    }
+    .footer-myapple-wrapper{
+        margin-bottom: 10px;
+        border-bottom: 1px solid #d2d2d7;
+        padding-bottom: 10px;
+    }
+    .footer-myapple-wrapper a{
+        color: rgb(6, 40, 194);
+    }
+
+   .footer-allConta{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: .93em;
+    align-items: center;
+   }
+   .footer-allConta ul{
+    list-style: none;
+   }
+   .footer-legal-wrapper ul li{
+    display: inline-block;
+    padding: 10px 0;
+   }
+   .footer-legal-wrapper ul li a{
+    color: #86868b;
+    text-decoration: none;
+
+   }
+   .footer-legal-wrapper ul li a::after{
+    content: "|";
+    padding-left: 10px;
+    color: #86868b;
+   }
+   .footer-country-flag ul li{
+    display: inline-block;
+    padding: 10px 0;
+
+}
+
+.country-icon{
+    display: inline-block;
+    vertical-align: middle;
+}
